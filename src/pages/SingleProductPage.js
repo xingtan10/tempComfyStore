@@ -36,6 +36,7 @@ const SingleProductPage = () => {
         navigate("/");
       }, 3000);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [single_products_error]);
 
   if (single_products_loading) {
@@ -51,8 +52,6 @@ const SingleProductPage = () => {
     price,
     description,
     stock,
-    stars,
-    reviews,
     id: sku,
     company,
     images,
