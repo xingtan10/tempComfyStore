@@ -1,0 +1,4 @@
+git reset --mixed origin/main
+git add .
+git commit -m "commit"
+git push origin main
